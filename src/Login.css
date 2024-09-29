@@ -1,0 +1,221 @@
+/* Login.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px; 
+    background-color: #800000; 
+    color: white;
+    border-bottom: 2px solid #d4a300; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 40px; 
+    height: auto; 
+    margin-right: 15px; 
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.account-menu {
+    position: relative;
+    margin-left: 15px; 
+    display: flex;
+    align-items: center; 
+    cursor: pointer;
+}
+
+.account-menu .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    right: 0;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px; 
+    min-width: 150px; 
+    z-index: 1000; 
+}
+
+.account-menu:hover .dropdown {
+    display: block;
+}
+
+.account-menu .icon {
+    margin-right: 10px; 
+    font-size: 13px; 
+}
+
+.dropdown a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    border-radius: 4px; 
+}
+
+.dropdown a:hover {
+    background-color: #c9c7c7; 
+}
+
+
+.language-toggle {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white; 
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    margin-left: 15px; 
+}
+
+.language-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-color: rgba(255, 255, 255, 0.5); 
+}
+
+  
+  .logo {
+    width: 110px; 
+    height: auto; 
+    margin-bottom: 20px; 
+  }
+  
+  .login-header {
+    text-align: center; 
+  }
+  
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./image/mfu.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+ 
+.login-box {
+    background-color: rgba(128, 0, 0, 0.8); 
+    padding: 20px;
+    border-radius: 12px; 
+    text-align: center;
+    color: white;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.login-box:hover {
+    background-color: rgba(128, 0, 0, 0.9); 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); 
+}
+
+  
+  .login-header .navbar-logo {
+    width: 60px; 
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    width: 30%;
+    padding: 10px;
+    background-color: #d4a300;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; 
+  }
+  
+  
+  form button:hover {
+    background-color: #b58a00; 
+  }
+  
+  .forgot-link,
+  .create-link {
+    display: block;
+    color: #d4a300;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .forgot-link:hover,
+  .create-link:hover {
+    text-decoration: underline;
+  }
+  
+  .guest-mode-info {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ddd; 
+  }
+  
+  .learn-more-link {
+    display: block;
+    color: #d4a300;
+    text-decoration: none;
+    margin-top: 5px;
+  }
+  
+  .learn-more-link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    background-color: #800000; 
+    color: white;
+    text-align: center;
+    padding: 2px;
+    position: absolute;
+    bottom: 2; 
+    width: 100%; 
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1); 
+    font-size: 15px;
+    border-top: 0.5px solid #d4a300; 
+}
+
